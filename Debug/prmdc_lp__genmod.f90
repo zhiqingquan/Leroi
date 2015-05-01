@@ -1,0 +1,22 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE PRMDC_LP__genmod
+          INTERFACE 
+            SUBROUTINE PRMDC_LP(NTX,MXVRTX,NVRTX,SXN,SXE,MRXTX,NRXTX,   &
+     &MQVR,RXID,XRXTX,YRXTX,ZRXTX,KNORM2,BPRM)
+              INTEGER(KIND=4) :: MQVR
+              INTEGER(KIND=4) :: MRXTX
+              INTEGER(KIND=4) :: MXVRTX
+              INTEGER(KIND=4) :: NTX
+              INTEGER(KIND=4) :: NVRTX(NTX)
+              REAL(KIND=4) :: SXN(MXVRTX,NTX)
+              REAL(KIND=4) :: SXE(MXVRTX,NTX)
+              INTEGER(KIND=4) :: NRXTX(NTX)
+              INTEGER(KIND=4) :: RXID(MRXTX,NTX)
+              REAL(KIND=4) :: XRXTX(MRXTX,NTX,MQVR)
+              REAL(KIND=4) :: YRXTX(MRXTX,NTX,MQVR)
+              REAL(KIND=4) :: ZRXTX(MRXTX,NTX)
+              INTEGER(KIND=4) :: KNORM2(MRXTX,NTX)
+              REAL(KIND=4) :: BPRM(MRXTX,NTX)
+            END SUBROUTINE PRMDC_LP
+          END INTERFACE 
+        END MODULE PRMDC_LP__genmod

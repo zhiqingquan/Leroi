@@ -1,0 +1,22 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE SET_RX_SUBNET__genmod
+          INTERFACE 
+            SUBROUTINE SET_RX_SUBNET(NTX,MRXTX,NRXTX,MXRS,NRS,MQVR,RXID,&
+     &XRXTX,YRXTX,XRS,YRS,WTRS,EDCS,EDSN)
+              INTEGER(KIND=4) :: MQVR
+              INTEGER(KIND=4) :: MXRS
+              INTEGER(KIND=4) :: MRXTX
+              INTEGER(KIND=4) :: NTX
+              INTEGER(KIND=4) :: NRXTX(NTX)
+              INTEGER(KIND=4) :: NRS(MRXTX,NTX)
+              INTEGER(KIND=4) :: RXID(MRXTX,NTX)
+              REAL(KIND=4) :: XRXTX(MRXTX,NTX,MQVR)
+              REAL(KIND=4) :: YRXTX(MRXTX,NTX,MQVR)
+              REAL(KIND=4) :: XRS(MXRS,MRXTX,NTX)
+              REAL(KIND=4) :: YRS(MXRS,MRXTX,NTX)
+              REAL(KIND=4) :: WTRS(MXRS,MRXTX,NTX)
+              REAL(KIND=4) :: EDCS(MRXTX,NTX)
+              REAL(KIND=4) :: EDSN(MRXTX,NTX)
+            END SUBROUTINE SET_RX_SUBNET
+          END INTERFACE 
+        END MODULE SET_RX_SUBNET__genmod

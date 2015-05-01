@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE FDREAD__genmod
+          INTERFACE 
+            SUBROUTINE FDREAD(ND,NFRQ,NTX,MRXTX,NRXTX,NCTD,BFD_SCAT)
+              INTEGER(KIND=4) :: MRXTX
+              INTEGER(KIND=4) :: NTX
+              INTEGER(KIND=4) :: NFRQ
+              INTEGER(KIND=4) :: ND
+              INTEGER(KIND=4) :: NRXTX(NTX)
+              INTEGER(KIND=4) :: NCTD(MRXTX,NTX)
+              COMPLEX(KIND=4) :: BFD_SCAT(NFRQ,MRXTX,NTX,3)
+            END SUBROUTINE FDREAD
+          END INTERFACE 
+        END MODULE FDREAD__genmod

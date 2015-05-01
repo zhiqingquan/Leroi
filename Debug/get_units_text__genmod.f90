@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE GET_UNITS_TEXT__genmod
+          INTERFACE 
+            SUBROUTINE GET_UNITS_TEXT(J,UTXT)
+              INTEGER(KIND=4) :: J
+              CHARACTER(LEN=20) :: UTXT(2)
+            END SUBROUTINE GET_UNITS_TEXT
+          END INTERFACE 
+        END MODULE GET_UNITS_TEXT__genmod

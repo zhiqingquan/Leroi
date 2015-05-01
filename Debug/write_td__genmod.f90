@@ -1,0 +1,34 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE WRITE_TD__genmod
+          INTERFACE 
+            SUBROUTINE WRITE_TD(NW,NW1,KPRT,NCHNL,NLINES,MRXL,MCMP,NRX, &
+     &SURVEY_TYPE,LINE,IDH,RX_TYPE,UNITS,SVAZM,TITLE,ISYS,PRFL,IPLT,    &
+     &YXZPLT,TMS,HEADER_ID,CMP,BFTL,RDATA,RWTS)
+              INTEGER(KIND=4) :: MCMP
+              INTEGER(KIND=4) :: MRXL
+              INTEGER(KIND=4) :: NLINES
+              INTEGER(KIND=4) :: NCHNL
+              INTEGER(KIND=4) :: NW
+              INTEGER(KIND=4) :: NW1
+              INTEGER(KIND=4) :: KPRT
+              INTEGER(KIND=4) :: NRX(NLINES)
+              INTEGER(KIND=4) :: SURVEY_TYPE
+              INTEGER(KIND=4) :: LINE(NLINES)
+              INTEGER(KIND=4) :: IDH(NLINES)
+              INTEGER(KIND=4) :: RX_TYPE(NLINES)
+              INTEGER(KIND=4) :: UNITS(NLINES)
+              REAL(KIND=4) :: SVAZM(NLINES)
+              CHARACTER(LEN=120) :: TITLE
+              INTEGER(KIND=4) :: ISYS
+              INTEGER(KIND=4) :: PRFL
+              INTEGER(KIND=4) :: IPLT(NLINES)
+              REAL(KIND=8) :: YXZPLT(3,MRXL,NLINES)
+              REAL(KIND=4) :: TMS(NCHNL)
+              INTEGER(KIND=4) :: HEADER_ID(NLINES)
+              INTEGER(KIND=4) :: CMP(NLINES)
+              REAL(KIND=4) :: BFTL(NCHNL,MRXL,MCMP,NLINES)
+              REAL(KIND=4) :: RDATA(NCHNL,MRXL,MCMP,NLINES)
+              INTEGER(KIND=4) :: RWTS(NCHNL,MRXL,MCMP,NLINES)
+            END SUBROUTINE WRITE_TD
+          END INTERFACE 
+        END MODULE WRITE_TD__genmod

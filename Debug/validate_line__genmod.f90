@@ -1,0 +1,16 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE VALIDATE_LINE__genmod
+          INTERFACE 
+            SUBROUTINE VALIDATE_LINE(NLG,MXERR,LINE_CHK,NSTAT,JL,NLINES,&
+     &LINE,NRX)
+              INTEGER(KIND=4) :: NLINES
+              INTEGER(KIND=4) :: NLG
+              INTEGER(KIND=4) :: MXERR
+              INTEGER(KIND=4) :: LINE_CHK
+              INTEGER(KIND=4) :: NSTAT
+              INTEGER(KIND=4) :: JL
+              INTEGER(KIND=4) :: LINE(NLINES)
+              INTEGER(KIND=4) :: NRX(NLINES)
+            END SUBROUTINE VALIDATE_LINE
+          END INTERFACE 
+        END MODULE VALIDATE_LINE__genmod

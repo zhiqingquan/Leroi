@@ -1,0 +1,16 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE EGTDIR__genmod
+          INTERFACE 
+            SUBROUTINE EGTDIR(JB,JA,KBASE,DAL,DBL,AAS,AAV,ABV,BBV)
+              INTEGER(KIND=4), INTENT(IN) :: JB
+              INTEGER(KIND=4), INTENT(IN) :: JA
+              COMPLEX(KIND=4), INTENT(IN) :: KBASE
+              REAL(KIND=4), INTENT(IN) :: DAL
+              REAL(KIND=4), INTENT(IN) :: DBL
+              COMPLEX(KIND=4), INTENT(OUT) :: AAS
+              COMPLEX(KIND=4), INTENT(OUT) :: AAV
+              COMPLEX(KIND=4), INTENT(OUT) :: ABV
+              COMPLEX(KIND=4), INTENT(OUT) :: BBV
+            END SUBROUTINE EGTDIR
+          END INTERFACE 
+        END MODULE EGTDIR__genmod

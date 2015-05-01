@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE SET_SWYTD__genmod
+          INTERFACE 
+            SUBROUTINE SET_SWYTD(NSX,SWX,SWY,T0SX)
+              INTEGER(KIND=4), INTENT(IN) :: NSX
+              REAL(KIND=4), INTENT(IN) :: SWX(NSX)
+              REAL(KIND=4), INTENT(INOUT) :: SWY(NSX,3)
+              REAL(KIND=4) :: T0SX
+            END SUBROUTINE SET_SWYTD
+          END INTERFACE 
+        END MODULE SET_SWYTD__genmod

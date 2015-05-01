@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE VALIDATE_CMP__genmod
+          INTERFACE 
+            SUBROUTINE VALIDATE_CMP(NLG,MXERR,JL,NLINES,CMP,NCMPL,ISYS)
+              INTEGER(KIND=4) :: NLINES
+              INTEGER(KIND=4) :: NLG
+              INTEGER(KIND=4) :: MXERR
+              INTEGER(KIND=4) :: JL
+              INTEGER(KIND=4) :: CMP(NLINES)
+              INTEGER(KIND=4) :: NCMPL(NLINES)
+              INTEGER(KIND=4) :: ISYS
+            END SUBROUTINE VALIDATE_CMP
+          END INTERFACE 
+        END MODULE VALIDATE_CMP__genmod

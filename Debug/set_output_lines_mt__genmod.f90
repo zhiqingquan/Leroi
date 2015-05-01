@@ -1,0 +1,16 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE SET_OUTPUT_LINES_MT__genmod
+          INTERFACE 
+            SUBROUTINE SET_OUTPUT_LINES_MT(NFRQ,NERX,MRXTX,IDHE,RMU1,BFD&
+     &,IPM,BFTL)
+              INTEGER(KIND=4) :: MRXTX
+              INTEGER(KIND=4) :: NERX
+              INTEGER(KIND=4) :: NFRQ
+              INTEGER(KIND=4) :: IDHE(NERX)
+              REAL(KIND=4) :: RMU1
+              COMPLEX(KIND=4) :: BFD(NFRQ,MRXTX,2,3)
+              INTEGER(KIND=4) :: IPM
+              REAL(KIND=4) :: BFTL(2*NFRQ,NERX,4,1)
+            END SUBROUTINE SET_OUTPUT_LINES_MT
+          END INTERFACE 
+        END MODULE SET_OUTPUT_LINES_MT__genmod

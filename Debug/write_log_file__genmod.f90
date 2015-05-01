@@ -1,0 +1,11 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE WRITE_LOG_FILE__genmod
+          INTERFACE 
+            SUBROUTINE WRITE_LOG_FILE(NLG,MSG,MXERR,ERR_LVL)
+              INTEGER(KIND=4) :: NLG
+              INTEGER(KIND=4) :: MSG
+              INTEGER(KIND=4) :: MXERR
+              INTEGER(KIND=4) :: ERR_LVL
+            END SUBROUTINE WRITE_LOG_FILE
+          END INTERFACE 
+        END MODULE WRITE_LOG_FILE__genmod

@@ -1,0 +1,9 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE SET_TMSR__genmod
+          INTERFACE 
+            SUBROUTINE SET_TMSR(NCHNL,TMS)
+              INTEGER(KIND=4) :: NCHNL
+              REAL(KIND=4) :: TMS(NCHNL)
+            END SUBROUTINE SET_TMSR
+          END INTERFACE 
+        END MODULE SET_TMSR__genmod

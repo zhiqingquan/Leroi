@@ -1,0 +1,17 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:06:59 2015
+        MODULE TXCMRG__genmod
+          INTERFACE 
+            SUBROUTINE TXCMRG(MXCNV,X1,Y1,N1,X2,Y2,N2,XCNV,YCNV,NCNV)
+              INTEGER(KIND=4), INTENT(IN) :: MXCNV
+              REAL(KIND=4), INTENT(IN) :: X1(MXCNV)
+              REAL(KIND=4), INTENT(IN) :: Y1(MXCNV)
+              INTEGER(KIND=4), INTENT(IN) :: N1
+              REAL(KIND=4), INTENT(IN) :: X2(MXCNV)
+              REAL(KIND=4), INTENT(IN) :: Y2(MXCNV)
+              INTEGER(KIND=4), INTENT(IN) :: N2
+              REAL(KIND=4), INTENT(OUT) :: XCNV(MXCNV)
+              REAL(KIND=4), INTENT(OUT) :: YCNV(4,MXCNV)
+              INTEGER(KIND=4), INTENT(OUT) :: NCNV
+            END SUBROUTINE TXCMRG
+          END INTERFACE 
+        END MODULE TXCMRG__genmod

@@ -1,0 +1,14 @@
+        !COMPILER-GENERATED INTERFACE MODULE: Fri May 01 19:07:00 2015
+        MODULE HSLPLP_HNK__genmod
+          INTERFACE 
+            SUBROUTINE HSLPLP_HNK(NRHS,RHOTRP,NLYR,KSQL,RMUD,THKD,HLYR)
+              INTEGER(KIND=4) :: NLYR
+              INTEGER(KIND=4) :: NRHS
+              REAL(KIND=4) :: RHOTRP(NRHS)
+              COMPLEX(KIND=8) :: KSQL(NLYR)
+              REAL(KIND=8) :: RMUD(0:NLYR)
+              REAL(KIND=8) :: THKD(NLYR)
+              COMPLEX(KIND=4) :: HLYR(NRHS)
+            END SUBROUTINE HSLPLP_HNK
+          END INTERFACE 
+        END MODULE HSLPLP_HNK__genmod
